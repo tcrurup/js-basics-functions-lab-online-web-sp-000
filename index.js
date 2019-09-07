@@ -5,10 +5,10 @@ function distanceFromHqInBlocks(startingBlock){
   return Math.abs(startingBlock - hqBlock)
 }
 
-function distanceFromHqInFeet(startingBlock, endingBlock){
+function distanceTravelledInFeet(startingBlock, endingBlock){
   
   const blockLengthInFeet = 264
-  
   return Math.abs(startingBlock - endingBlock) * blockLengthInFeet
-  
 }
+
+function 
