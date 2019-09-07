@@ -9,4 +9,6 @@ function distanceFromHqInFeet(startingBlock, endingBlock){
   
   const blockLengthInFeet = 264
   
+  return Math.abs(startingBlock - endingBlock) * blockLengthInFeet
+  
 }
